@@ -1,8 +1,7 @@
 Fullstack Nanodegree - Project 2
 Swiss-Pair Tournament
-Author: Andrew Roy Chen
-April 2015
-=============
+Author: Andrew Roy Chen, April 2015
+=====================================================
 
 OUTLINE:
 Define data tables needed to implement a roster of unique players and a list 
