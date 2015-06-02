@@ -45,4 +45,5 @@ ON Players.id = Matches.winner GROUP BY Players.id;
 -- view for player standings (desc)
 CREATE VIEW Standings AS SELECT Players.id, Players.name, wins, matches 
 FROM Players, Num_Matches, Num_Wins 
-WHERE Players.id = Num_Matches.id AND Players.id = Num_Wins.id;
+WHERE Players.id = Num_Matches.id AND Players.id = Num_Wins.id
+ORDER BY wins DESC;
